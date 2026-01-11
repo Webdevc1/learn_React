@@ -1,0 +1,43 @@
+.orig{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,600px));
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #3BC1A8;
+    border-radius: 20px
+
+  }
+
+button{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin:20px;
+    background-color:blue; 
+    border-radius: 5px;
+    padding:10px;
+    border: 0px;
+  }
+
+.fmin{
+
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 2px;
+    width: 200px
+
+  }
+
+button:hover{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin:20px;
+    background-color: red; 
+    border-radius: 5px;
+    padding:10px;
+    border: 0px;
+}
