@@ -1,0 +1,22 @@
+.header{
+    border-radius: 20px;
+    background-color: aqua;
+    justify-items: center;
+    align-items: center;
+    display:flex;
+    flex-grow: 1;
+}
+
+.header>form{
+    justify-self: center;
+    align-self: center;
+    margin:10px 10px 10px 10px;
+}
+
+.Cards{
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
